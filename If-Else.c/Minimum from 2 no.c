@@ -17,4 +17,5 @@ main()
 	{
 		printf("The Minimum is A");
 	}
+	
 }
