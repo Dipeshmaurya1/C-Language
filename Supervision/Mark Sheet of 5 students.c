@@ -4,11 +4,11 @@
 
 struct Student 
 {
-    int rn;
+    int rollno;
     char name[50];
-    int chem;
+    int chemistry;
     int maths;
-    int phy;
+    int physics;
 };
 
 int main() 
@@ -25,20 +25,20 @@ int main()
         
        
         printf("Roll No: ");
-        scanf("%d", &students[i].rn);
+        scanf("%d", &students[i].rollno);
 
         printf("Name: ");
         scanf("%s", students[i].name); 
 
      
         printf("Chemistry Marks (out of 100): ");
-        scanf("%d", &students[i].chem);
+        scanf("%d", &students[i].chemistry);
 
         printf("Mathematics Marks (out of 100): ");
         scanf("%d", &students[i].maths);
 
         printf("Physics Marks (out of 100): ");
-        scanf("%d", &students[i].phy);
+        scanf("%d", &students[i].physics);
 
         printf("\n");
     }
@@ -47,14 +47,14 @@ int main()
     printf("Mark Sheets:\n");
     for (i = 0; i < 5; i++) 
 	{
-        float total_marks = students[i].chem + students[i].maths + students[i].phy;
+        float total_marks = students[i].chemistry + students[i].maths + students[i].ph;
         float percentage = (total_marks / 300) * 100;
 
-        printf("\nStudent %d - Roll No: %d\n", i + 1, students[i].rn);
+        printf("\nStudent %d - Roll No: %d\n", i + 1, students[i].rollno);
         printf("Name: %s\n", students[i].name);
-        printf("Chemistry Marks: %d\n", students[i].chem);
+        printf("Chemistry Marks: %d\n", students[i]. chemistry);
         printf("Mathematics Marks: %d\n", students[i].maths);
-        printf("Physics Marks: %d\n", students[i].phy);
+        printf("Physics Marks: %d\n", students[i]. physics);
         printf("Percentage: %.2f%%\n", percentage);
     }
 
