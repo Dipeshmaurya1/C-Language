@@ -47,7 +47,7 @@ int main()
     printf("Mark Sheets:\n");
     for (i = 0; i < 5; i++) 
 	{
-        float total_marks = students[i].chemistry + students[i].maths + students[i].ph;
+        float total_marks = students[i].chemistry + students[i].maths + students[i].physics;
         float percentage = (total_marks / 300) * 100;
 
         printf("\nStudent %d - Roll No: %d\n", i + 1, students[i].rollno);
