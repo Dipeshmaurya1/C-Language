@@ -9,7 +9,7 @@ main()
 		scanf("%d",&N);
 	while(a<=10)
 	{
-		printf("%d*%d=%d\n",N,a,N*a);
+		printf("%dX%d=%d\n",N,a,N*a);
 		a++;
     }
 }
