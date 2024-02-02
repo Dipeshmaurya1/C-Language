@@ -5,7 +5,7 @@ main()
 {
   	int a,n,y;
 	int sum=0;
-		printf("Enter The Value of N:");
+		printf("Enter The Size of Array:");
 		scanf("%d",&n);
 	int x[n];
 	for(a=0;a<n;a++)
